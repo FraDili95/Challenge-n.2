@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .name-wrapper {
+        background-color: rgb(240, 242, 241);
+        border: 1px solid var(--color-lightgray);
+        box-sizing: border-box;
+        width: 420px;
+        height: 52px;
+        display: flex;
+        
+      }
+    </style>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicLove</title>
+</head>
+<body style="background-color: rgb(199, 15, 15);">
+    
+    <img src="images.jpeg" alt="nota musicale" width="200" height="200"
+    style="border-radius: 100px;">
+    <h1 style="text-align: center; font-family: 'Bebas Neue', sans-serif;
+    display: inline; font-size: 10em"  ;>MusicLove</h1>
+    <img src="download.jpeg" alt="cuore itaia" width="200" height="200"
+    style="border-radius: 100px;">
+    <h2><b>REGISTRATI PER ASCOLTARE LA TUA MUSICA QUANDO VUOI E DOVE VUOI!</b></h2>
+    <form onsubmit="allert('Form inviato')"style=" border-radius: 20"> 
+        <div >
+            <input type="text" class="name-wrapper" placeholder="Name">
+          </div>
+         <p></p>
+          <div>
+            <input type="text" class="name-wrapper" placeholder="Family Name">
+          </div>
+          <p></p>
+          <div>
+            <input type="email" class="name-wrapper" placeholder="Insert your E-Mail">
+          </div>
+          <p></p>
+          <div>
+            <input type="password" class="name-wrapper" placeholder="Choose a Password">
+          </div>
+          <p></p>
+          <div>
+            <input type="tel" class="name-wrapper" placeholder="Insert your phone number">
+          </div>
+          <p></p>
+          <div>
+            <input type="date" id="dateInput" name="date" class="birthdate" placeholder="Insert your phone number">
+          </div>
+          <div class="rectangle-parent5">
+              <input type="checkbox">
+              <label for="radio">Accept Terms and Conditions</label>
+          </div>
+          <input type="submit" value="Register" class="register-submit" onclick="showAlert()">
+         </div>
+    </form>
+</body>
+</html>
